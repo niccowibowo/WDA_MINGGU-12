@@ -1,0 +1,538 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ===== BODY ===== */
+.body {
+  font-family: "Poppins", sans-serif;
+  background-color: #efeae3;
+  color: #1c1c1c;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+  display: inline-block;
+  background-color: #7d8570;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 22px;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: #6a7260;
+}
+
+.btn-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.btn-dark {
+  display: block;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  padding: 14px 0;
+  border-radius: 6px;
+}
+
+.btn-dark:hover {
+  background-color: #333333;
+}
+
+/* ===== LOGO ===== */
+.logo-navbar {
+  width: 120px;
+  height: 60px;
+  background-image: url('../assets/LOGODKHITAM.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background-color: #efeae3;
+  padding: 30px 100px 70px 100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-title {
+  font-family: "Instrument Serif", serif;
+  font-size: 130px;
+  font-weight: 400;
+  line-height: 1.05;
+  margin-bottom: 30px;
+}
+
+.hero-line {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-italic {
+  font-style: italic;
+}
+
+.hero-green {
+  color: #8c9480;
+}
+
+.hero-img {
+  height: 90px;
+  object-fit: cover;
+}
+
+.hero-img-1 {
+  width: 440px;
+}
+
+.hero-img-2 {
+  width: 250px;
+}
+
+.hero-img-3 {
+  width: 250px;
+}
+
+/* ===== TITLE ===== */
+.title {
+  font-family: "Instrument Serif", serif;
+  font-size: 90px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* ===== ABOUT ===== */
+.about {
+  background-color: #ffffff;
+  padding: 60px 100px 80px 100px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.about-img {
+  width: 55%;
+}
+
+.about-text {
+  width: 45%;
+}
+
+.about-text p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+/* ===== PORTFOLIO ===== */
+.portfolio {
+  padding: 80px 100px 0 100px;
+}
+
+.portfolio-list {
+  display: flex;
+}
+
+.portfolio-img {
+  width: 390px;
+  height: 390px;
+  object-fit: cover;
+}
+
+/* ===== PRICING ===== */
+.pricing {
+  padding: 80px 100px 0 100px;
+}
+
+.pricing-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-family: "Instrument Serif", serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.card-price {
+  font-family: "Instrument Serif", serif;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.card-list {
+  font-family: "Instrument Serif", serif;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 25px;
+  list-style: disc;
+  padding-left: 22px;
+}
+
+/* ===== FACILITY ===== */
+.facility {
+  padding: 80px 100px 0 100px;
+}
+
+.facility-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.facility-img {
+  background-image: url("images/facility.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+}
+
+/* ===== CTA ===== */
+.cta {
+  padding: 80px 100px 70px 100px;
+}
+
+.cta-title {
+  font-family: "Instrument Serif", serif;
+  font-size: 90px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.cta-green {
+  color: #8c9480;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #262626;
+  color: #ffffff;
+  padding: 40px 100px 50px 100px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 70px;
+  margin-top: 25px;
+}
+
+.footer-item h4 {
+  font-family: "Instrument Serif", serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.logo-footer {
+    width: 120px;
+    height: 60px;
+    background-image: url('../assets/LOGODKPUTIH.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-item p,
+.footer-item a {
+  display: block;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-item .social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* ===== TABLET (max 1024px) ===== */
+@media (max-width: 1024px) {
+  .hero,
+  .about,
+  .portfolio,
+  .pricing,
+  .facility,
+  .cta,
+  .footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .hero-title {
+    font-size: 80px;
+  }
+
+  .hero-img {
+    height: 60px;
+  }
+
+  .hero-img-1 {
+    width: 270px;
+  }
+
+  .hero-img-2,
+  .hero-img-3 {
+    width: 150px;
+  }
+
+  .title {
+    font-size: 64px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+  .portfolio-img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .card-title {
+    font-size: 28px;
+  }
+
+  .card-price {
+    font-size: 22px;
+  }
+
+  .card-list {
+    font-size: 16px;
+  }
+
+  .facility-img {
+    height: 240px;
+  }
+
+  .cta-title {
+    font-size: 60px;
+  }
+
+  .footer-list {
+    gap: 40px;
+  }
+}
+
+/* ===== MOBILE (max 768px) ===== */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 50px;
+  }
+
+  .hero-line {
+    gap: 10px;
+  }
+
+  .hero-img {
+    height: 36px;
+  }
+
+  .hero-img-1 {
+    width: 110px;
+  }
+
+  .hero-img-2,
+  .hero-img-3 {
+    width: 70px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .about-img,
+  .about-text {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 48px;
+    margin-bottom: 25px;
+  }
+
+  .portfolio,
+  .pricing,
+  .facility {
+    padding-top: 50px;
+  }
+
+  .portfolio-img {
+    width: 50%;
+    height: auto;
+  }
+
+  .pricing-list {
+    gap: 12px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  .card-title {
+    font-size: 22px;
+  }
+
+  .card-price {
+    font-size: 18px;
+  }
+
+  .card-list {
+    font-size: 14px;
+  }
+
+  .btn-dark {
+    font-size: 12px;
+    padding: 12px 0;
+  }
+
+  .facility-img {
+    height: 160px;
+  }
+
+  .cta {
+    padding-top: 50px;
+  }
+
+  .cta-title {
+    font-size: 38px;
+  }
+
+  .footer-list {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .footer-item {
+    width: 45%;
+  }
+
+  .footer-item h4 {
+    font-size: 24px;
+  }
+}
+
+/* ===== SMALL MOBILE (max 480px) ===== */
+@media (max-width: 480px) {
+  .hero,
+  .about,
+  .portfolio,
+  .pricing,
+  .facility,
+  .cta,
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-title {
+    font-size: 40px;
+  }
+
+  .hero-img {
+    height: 30px;
+  }
+
+  .hero-img-1 {
+    width: 90px;
+  }
+
+  .hero-img-2,
+  .hero-img-3 {
+    width: 56px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .pricing-list {
+    grid-template-columns: 1fr;
+  }
+
+  .facility-img {
+    height: 120px;
+  }
+
+  .cta-title {
+    font-size: 32px;
+  }
+
+  .footer-item {
+    width: 100%;
+  }
+}
